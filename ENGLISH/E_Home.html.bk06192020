@@ -1,0 +1,314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <title>Welcome to English Ministry</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="../CSS/mainstyle.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/mandarin.css" rel="stylesheet" type="text/css" />
+    <script src="../JS/homeScript.js"></script>
+
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="../index.html" class="logo"> <img src="../images/CBC_logo.jpg" alt="home" style="width:100px"> </a>
+        <a href="../index.html">Home</a>
+        <a href="../MANDARIN/M_Home.html"> 國語 </a>
+        <a href="../CANTONESE/C_Home.html">粵語 </a>
+        <a href="../About.html">About</a>
+        <a href="../contact.html"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+        <a href="../COVID19.html" style="color:red;font-size: 20px;">COVID-19 UPDATE / 防疫專區</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </div>
+    <hr>
+    <br/>
+    <div>
+        <ul class="nav nav-pills nav-fill" id="pills-tab" role="tablist" style="font-weight: bold">
+            <li class="nav-item">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-become-christian-tab" data-toggle="pill" href="#pills-become-christian" role="tab" aria-controls="pills-become-christian" aria-selected="false">BECOME CHRISTIAN </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-sunday-gathering-tab" data-toggle="pill" href="#pills-sunday-gathering" role="tab" aria-controls="pills-sunday-gathering" aria-selected="false">SUNDAY GATHERING </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-fellowship-tab" data-toggle="pill" href="#pills-fellowship" role="tab" aria-controls="pills-fellowship" aria-selected="false">JOIN A FELLOWSHIP </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-calendar-tab" data-toggle="pill" href="#pills-calendar" role="tab" aria-controls="pills-calendar" aria-selected="false">CALENDAR</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" id="pills-news-tab" data-toggle="pill" href="#pills-news" role="tab" aria-controls="pills-news" aria-selected="false">NEWLETTER</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="../PDF_files/Guidelines and Instructions for eTransfer w translation.pdf" role="tab" aria-selected="false" target="_blank">OFFERING</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="container-fluid>">
+                <div class="row">
+                    <div class="col-10 offset-1 ">
+                        <br/>
+                        <h4>About Us</h4>
+                        <p>
+                            English Ministry serves anyone who would like to worship God using the English language. Whether English is your heart language or you would simply like to worship in an English language context, all are welcome. Most of us are of Chinese descent, but
+                            a few of us are from other cultural and ethnic backgrounds. What brings us together is our common love for the God and Father of our Lord Jesus Christ, and the fellowship of the Holy Spirit.
+                        </p>
+                        <br/>
+                        <h4>C&MA</h4>
+                        <p>
+                            We are part of the denomination of the Christian and Missionary Alliance (C&MA) in Canada, an alliance of evangelical local churches committed to fulfilling the Great Commission. As Christians we believe in and follow Jesus Christ as Saviour and Lord;
+                            and as Missionaries we are committed to proclaiming the Gospel of Jesus Christ to the ends of the Earth. <a href=" http://www.cmacan.org/">http://www.cmacan.org/</a>
+                        </p>
+                        <br/>
+                        <h4 class="paddingBottom"><a href="../PDF_files/Hiring.pdf">Position: Cantonese Pastor</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane fade " id="pills-become-christian" role="tabpanel " aria-labelledby="pills-become-christian-tab ">
+            <div class="container-fluid paddingBottom">
+                <div class="row ">
+                    <div class="col-10 offset-1 ">
+                        <br/>
+                        <h4>How to become a Christian.</h4>
+                        <p>
+                            The Bible says in the book of Romans, “If you declare with your mouth, “Jesus is Lord,” and believe in your heart that God raised him from the dead, you will be saved” (Romans 10:9, Bible NIV).
+                        </p>
+                        <br/>
+                        <h4>Find out who God and Jesus is:</h4>
+                        <p>
+                            In the book of Matthew Jesus promises: “Ask and it will be given to you; seek and you will find; knock and the door will be opened to you. For everyone who asks receives; the one who seeks finds; and to the one who knocks, the door will be opened” (Matthew
+                            7:7-8, NIV).
+                        </p>
+                        <br/>
+                        <h4>Read the Bible</h4>
+                        <p>
+                            “For prophecy never had its origin in the human will, but prophets, though human, spoke from God as they were carried along by the Holy Spirit.” ~ 2 Peter 1:21 (NIV) Study God’s Word. Start reading from the New Testament about Jesus’ life, then read the
+                            Old Testament.
+                        </p>
+                        <br/>
+                        <h4>Pray</h4>
+                        <p>
+                            “Pray continually; give thanks in all circumstances, for this is God’s will for you in Christ Jesus.” ~ Thessalonians 5:17 (NIV) God will always listen. He is always there for you.
+                        </p>
+                        <br/>
+                        <h4>Church</h4>
+                        <p>
+                            ”By this everyone will know that you are my disciples, if you love one another.” ~ John 13:35 (NIV) Hang out with God’s people. Make friends with fellow Christians and grow together in Christ.
+                        </p>
+                        <br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane fade " id="pills-sunday-gathering" role="tabpanel" aria-labelledby="pills-sunday-gathering-tab ">
+            <div class="container-fluid paddingBottom ">
+                <div class="row ">
+                    <div class="col-10 offset-1">
+                        <br/> <br/> <br/>
+                        <table class="table-hover" style="width:100%;font-size: 12pt;">
+                            <tr class="table-success">
+                                <th></th>
+                                <th>Time</th>
+                                <th>Location</th>
+                            </tr>
+                            <tr>
+                                <td>Sunday Service</td>
+                                <td>&nbsp; 9:30 am - 10:45 am</td>
+                                <td>WCAC Chapel</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday Fellowship</td>
+                                <td>10:45 am - 11:15 am</td>
+                                <td>WCAC Fellowship Hall</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday School Classes for: Jr. High, High School, University and Career</td>
+                                <td> 11:15 am - 12:15 pm</td>
+                                <td>WCAC Rectory Classrooms</td>
+                            </tr>
+                            <tr>
+                                <td>Children’s Service JK-grade 4</td>
+                                <td>&nbsp; 9:30 am - 10:45 am</td>
+                                <td>WCAC Chapel Basement</td>
+                            </tr>
+                            <tr>
+                                <td>Children’s Sunday School JK-grade 4</td>
+                                <td>11:00 am - 12:15 pm</td>
+                                <td>WCAC Chapel Basement</td>
+                            </tr>
+                            <tr>
+                                <td>Nursery age 0-4</td>
+                                <td>&nbsp; 9:30 am - 11:00 am</td>
+                                <td>Room: Rectory Nursery</td>
+                            </tr>
+                            <tr>
+                                <td>Preschool Class ages 2-4</td>
+                                <td>11:00 am - 12:15 pm</td>
+                                <td>Room: Rectory Nursery</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane fade " id="pills-fellowship" role="tabpanel " aria-labelledby="pills-fellowship-tab ">
+            <div class="container-fluid paddingBottom ">
+                <div class="row" style="padding:5%">
+
+                    <br/>
+                    <table class="table-hover" style="width:100%; font-size: 12pt;">
+                        <tr class="table-success">
+                            <th>Fellowship</th>
+                            <th>Location</th>
+                        </tr>
+
+                        <tr>
+                            <td>Prayer Meeting</td>
+                            <td>Meets Thursdays, 8:00 pm. Contact for places</td>
+                        </tr>
+
+                        <tr>
+                            <td>Emanuel Fellowship (Families and Adults)</td>
+                            <td>Meets bi-weekly. Contact for times and places</td>
+                        </tr>
+
+                        <tr>
+                            <td>Young Careers Fellowship (Finished undergrad, but no kids yet)</td>
+                            <td>Meets bi-weekly. Contact for times and places</td>
+                        </tr>
+                        <tr>
+                            <td>180 Asian Christian Fellowship (University/College age) https://www.facebook.com/180acf/</td>
+                            <td>Meets Saturdays, 7:30 pm</td>
+                        </tr>
+                        <tr>
+                            <td>Carmel Fellowship (High School)</td>
+                            <td>Meets Saturdays, 7:30 pmm</td>
+                        </tr>
+                        <tr>
+                            <td>Jr. High Fellowship (Grades 7 and 8)</td>
+                            <td>Meets Saturdays, 7:30 pmm</td>
+                        </tr>
+                    </table>
+                    <!-- Grid column -->
+                    <br/><br/>
+                    <div style="height:100%">
+                        <img style="display: inline-block; width:33%" src="../images/Carmel/IMG_20190223_145120.jpg" alt="Carmel#1">
+                        <img style="display: inline-block; width:25%" src="../images/Carmel/IMG_20190629_181051.jpg" alt="Carmel#2">
+                        <img style="display: inline-block; width:25%;" src="../images/Carmel/IMG_20190629_181054.jpg" alt="Carmel#3">
+                    </div>
+                    <!-- Grid column -->
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane fade" id="pills-news" role="tabpanel" aria-labelledby="pills-news-tab">
+            <br/>
+            <div class="table-responsive-sm paddingBottom">
+                <table class="table table-hover col-8 offset-2">
+                    <thead>
+                        <tr>
+                            <th colspan="4" class="table-info" style="text-align: center;">Newletter</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">6/21/2020</th>
+                            <td><a target="_blank" href="../PDF_files/News/WCAC Weekly 06192020 English.pdf"><i class="fa fa-newspaper-o fa-2x" aria-hidden="true" style="color:cornflowerblue"> </i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6/14/2020</th>
+                            <td><a target="_blank" href="../PDF_files/News/WCAC Weekly 06122020 English.pdf"><i class="fa fa-newspaper-o fa-2x" aria-hidden="true" style="color:cornflowerblue"> </i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6/7/2020</th>
+                            <td><a target="_blank" href="../PDF_files/News/WCAC Weekly 06052020 English.pdf"><i class="fa fa-newspaper-o fa-2x" aria-hidden="true" style="color:cornflowerblue"> </i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5/31/2020</th>
+                            <td><a target="_blank" href="../PDF_files/News/WCAC Weekly 05292020 English.pdf"><i class="fa fa-newspaper-o fa-2x" aria-hidden="true" style="color:cornflowerblue"> </i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5/24/2020</th>
+                            <td><a target="_blank" href="../PDF_files/News/WCAC Weekly 05222020 English.pdf"><i class="fa fa-newspaper-o fa-2x" aria-hidden="true" style="color:cornflowerblue"> </i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5/17/2020</th>
+                            <td><a target="_blank" href="../PDF_files/News/WCAC Weekly 05152020 English.pdf"><i class="fa fa-newspaper-o fa-2x" aria-hidden="true" style="color:cornflowerblue"> </i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5/10/2020</th>
+                            <td><a target="_blank" href="../PDF_files/News/WCAC Weekly 05012020 English.pdf"><i class="fa fa-newspaper-o fa-2x" aria-hidden="true" style="color:cornflowerblue"> </i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5/03/2020</th>
+                            <td><a target="_blank" href="../PDF_files/News/WCAC Weekly 05012020 English.pdf"><i class="fa fa-newspaper-o fa-2x" aria-hidden="true" style="color:cornflowerblue"> </i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4/26/2020</th>
+                            <td><a target="_blank" href="../PDF_files/News/WCAC Weekly 04242020 English.pdf"><i class="fa fa-newspaper-o fa-2x" aria-hidden="true" style="color:cornflowerblue"> </i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4/19/2020</th>
+                            <td><a target="_blank" href="../PDF_files/News/WCAC Weekly 04172020 English.pdf"><i class="fa fa-newspaper-o fa-2x" aria-hidden="true" style="color:cornflowerblue"> </i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4/12/2020</th>
+                            <td><a target="_blank" href="../PDF_files/News/WCAC Weekly 04102020 English.pdf"><i class="fa fa-newspaper-o fa-2x" aria-hidden="true" style="color:cornflowerblue"> </i></a></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="tab-pane fade" id="pills-calendar" role="tabpanel" aria-labelledby="pills-calendar-tab">
+            <div class="container-fluid paddingBottom">
+                <div class="row" style="padding:5%">
+                    <br/>
+                    <iframe src="https://calendar.google.com/calendar/embed?height=650&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FToronto&amp;src=cDA3N3FobzZubXFiaGp2ZmlyOGl1a3N2dG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=Y2FybWVseW91dGhmZWxsb3dzaGlwQGdtYWlsLmNvbQ&amp;color=%23616161&amp;color=%237CB342&amp;title=WCAC%20English%20%26%20Youth"
+                        style="border-width:0" width="1200" height="650" frameborder="0" scrolling="no">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+    <div class="footer container-fluid ">
+        <p style="padding-top: 5pt; margin-bottom: 5pt">Copyright &copy;
+            <script type="text/javascript ">
+                var year = new Date();
+                year = year.getFullYear();
+                document.write(year);
+            </script>
+            Windsor Chinese Alliance Church. All Rights Reserved.The Christian & Missionary Alliance in Canada </p>
+    </div>
+
+</body>
+
+
+
+</html>
