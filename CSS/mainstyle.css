@@ -419,3 +419,8 @@ article p {
     width: 100%;
     height: auto;
 }
+
+.about-bg {
+   
+    background-image: url(../images/Background/BG_ABOUT.jpg);
+}
