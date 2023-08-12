@@ -190,6 +190,8 @@ header {
 
 .fixed-attachment {
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 @media (max-width: 1024px) {
