@@ -21,20 +21,10 @@
 
 <!-- Please add youtube link here -->
 <script>
- //
+    //
     //  Forward to the most recent worship link based on the current date. On mondays and tuesdays we go back to Sunday's video All other days we forward to the upcoming Sunday's stream.
     //
-    const linkMapString = '{  "20211010":"https://youtu.be/9WjVbbBAzwU", "20211017":"https://youtu.be/2XPKwN5oBL0", "20211024":"https://youtu.be/RcfkoQf8u-4", "20211031":"https://youtu.be/tWSAsT7CZr0",'+  //OCT
-	                  '   "20230129":"https://youtu.be/XrjiUTiY4A4", "20230205":"https://youtu.be/Ro96csi6hNE", "20230212":"https://youtu.be/mfbkkOF1rHk", "20230219":"https://youtu.be/jfVMpF0TGhE",' + 
-	                  '   "20230226":"https://youtu.be/0QIJRb7sJ6w", "20230305":"https://youtu.be/JudlWSDc9y4", "20230312":"https://youtu.be/B9deylsS7sE", "20230319":"https://youtu.be/K9qX10xBjhQ","20230326":"https://youtu.be/3HbjmJWggaw",' +
-	  		  '   "20230402":"https://youtu.be/84GNaJLVELI", '+
-			  '   "20230409":"https://youtu.be/_-TYKCg14B8", "20230416":"https://youtu.be/eXg8NzsL_z4", "20230423":"https://youtu.be/AqEUELFM0I0", "20230430":"https://youtu.be/tM7J6tEhr5I", '+
-                          '   "20230507":"https://youtube.com/live/5T5pdRV1MUU", "20230514":"https://youtu.be/_SZxv3_HEto", "20230521":"https://youtu.be/Rpi7wLLhExw", "20230528":"https://youtu.be/F_f43zIcqMY", "20230604":"https://youtu.be/-m-mEcN898w", '+
-                          '   "20230611":"https://youtu.be/FsA-lV8Sskw", "20230618":"https://youtu.be/6ySTMXMHQtI", "20230625":"https://youtu.be/r4VCYxMx3C4", "20230702":"https://youtu.be/rHS73UBExc0", '+
-                          '   "20230709":"https://youtu.be/Zugwf_yzzjs", "20230716":"https://youtu.be/YkUkaWoTzbA", "20230723":"https://youtu.be/WzmCeBW9o6U", "20230730":"https://youtu.be/AP7xIepl6Do", '+
-                          '   "20230806":"https://youtu.be/E2QfeJrWBOA", "20230813":"https://youtu.be/YbgZ_MraUBA", "20230820":"https://youtu.be/VqVfkNDIxK0", "20230827":"https://youtu.be/41legzuLops", '+
-                          '   "20230903":"https://youtu.be/ZvJy6LDVePM", "20230910":"https://youtu.be/oWUl8XPxP7w", "20230917":"https://youtu.be/E-VqTy8e3jY", "20230924":"https://youtu.be/dGpBX5Z0u1g", '+
-                          '   "20231001":"https://youtu.be/hBubww1xQv8", "20231008":"https://youtu.be/psGhJeu7gFs", "20231015":"https://youtu.be/XWyYTEW56og", "20231022":"https://youtu.be/5ALIpjqYb_g", '+
+    const linkMapString = '{  "20231001":"https://youtu.be/hBubww1xQv8", "20231008":"https://youtu.be/psGhJeu7gFs", "20231015":"https://youtu.be/XWyYTEW56og", "20231022":"https://youtu.be/5ALIpjqYb_g", '+
                           '   "20231029":"https://youtu.be/HWVPID_leV0", "20231105":"https://youtu.be/D_mmByvfVkM", "20231112":"https://youtu.be/Uj-kzg5obMk", "20231112":"https://youtu.be/lifY-jHOc38", '+
                           '   "20231126":"https://youtu.be/Ab6XowrzvJA", "20231203":"https://youtu.be/3enMJh58kXE", "20231210":"https://youtu.be/HPegDFxUBwI", "20231217":"https://youtu.be/lI7d3d6p6qE", '+
                           '   "20231224":"https://youtu.be/jwHGucLvg1s", "20231231":"https://youtu.be/X1LQeHDN0pU" }';
