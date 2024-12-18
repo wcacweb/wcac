@@ -25,7 +25,7 @@
     //  Forward to the most recent worship link based on the current date. On mondays and tuesdays we go back to Sunday's video All other days we forward to the upcoming Sunday's stream.
     //
     const linkMapString = '{  "20241208":"https://youtu.be/bAWgU4kGmdU", "20241215":"https://youtu.be/pWbv7sbAll8", "20241222":"https://youtu.be/7G5lAkQ9HFc", "20241229":"https://youtu.be/1VSsBEVdx_g",'  +
-	    		  ' "20250105":"https://youtu.be/dHWUljV1Dn0""20250112":"https://youtu.be/QgYvGbwJabg", "20250119":"https://youtu.be/OPPRg2aBDLw", "20250126":"https://youtu.be/kRIjwlY6ikg", "20250202":"https://youtu.be/lMc7YouQrtI", '+
+	    		  ' "20250105":"https://youtu.be/dHWUljV1Dn0", "20250112":"https://youtu.be/QgYvGbwJabg", "20250119":"https://youtu.be/OPPRg2aBDLw", "20250126":"https://youtu.be/kRIjwlY6ikg", "20250202":"https://youtu.be/lMc7YouQrtI", '+
                           ' "20250209":"https://youtu.be/sL5bQJLgSH0", "20250216":"https://youtu.be/Lar11HZh4u8", "20250223":"https://youtu.be/wfTh6cyuDhg", "20250302":"https://youtu.be/q-6Appk8_V0", '+
                           ' "20250309":"https://youtu.be/njlsIfsp_jw", "20250316":"https://youtu.be/htVGwqxKod4", "20250330":"https://youtu.be/wUIZiNJev-4", "20250406":"https://youtu.be/7PKImiJzfP0", '+
                           ' "20250413":"https://youtu.be/SBV-XfnH1vI", "20250420":"https://youtu.be/7r4PBsChgXw", "20250427":"https://youtu.be/ledxT9ncN2s", "20250504":"https://youtu.be/LSugZ-dqdYk", '+
@@ -38,16 +38,8 @@
                           ' "20251102":"https://youtu.be/oiHBvw-Vg4I", "20251109":"https://youtu.be/s4KiABEm6_A", "20251116":"https://youtu.be/kZc3JMCkWE4", "20251123":"https://youtu.be/gia8f9hla8E", '+
                           ' "20251130":"https://youtu.be/l6STfZ-TySk", "20251207":"https://youtu.be/li7sOAOdb3c", "20251214":"https://youtu.be/gOYuMLUCMVY", "20251221":"https://youtu.be/KhYsWdXJCa4", '+
                           ' "20251228":"https://youtu.be/Ks-SV7ZRu6Y" }';
-
-
-
-
- 
-
-
 	
-	linkMap = JSON.parse( linkMapString );
-    
+    linkMap = JSON.parse( linkMapString );
     let addDays = (date, days) => {
         let result = new Date(date);
         result.setDate(result.getDate() + days);
