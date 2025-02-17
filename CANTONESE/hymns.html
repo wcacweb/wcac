@@ -550,24 +550,38 @@ const hList = [
  
 
 $( document ).ready(function() {
+
+      console.log("Test");
+      for(let i=0; i<537; i++){
+        let output = ("000" + i).slice(-3);
+        $("#AllSongs").append("<tr><td>" + ("000" + i).slice(-3) +  "</td><td>" + hList[i]    +   "</td><td>----</td><td>----</td></tr>");
+         
+
+ 
+    
+      };
+
+
       for(let i=0; i<537; i++){
         let output = ("000" + i).slice(-3);
       	$.ajax({
-    		url:'https://wcac.ca/CANTONESE/binaries/H' + ("000" + i).slice(-3) + '.mp3',
-    		type:'HEAD',
-    		error: function()
+    		    url:'https://wcac.ca/CANTONESE/binaries/H' + ("000" + i).slice(-3) + '.mp3',
+    		  type:'HEAD',
+    		  error: function()
+    		  {
+        		  //file not exists
+    		  },
+    		  success: function()
     		{
-        		//file not exists
-    		},
-    		success: function()
-    		{
-			setTimeout(function(){
-    				$("#Main>tbody").append("<tr><td>" + ("000" + i).slice(-3) +  "</td><td>" + hList[i]    +   " </td><td><a href='https://wcac.ca/CANTONESE/binaries/H" + output + ".mp3' >&#9658</A></td><td>  <a href='https://wcac.ca/CANTONESE/binaries/H" + output + ".mp3' download=''>&#x25BC<A/></td><td>  <!--a href='https://wcac.ca/CANTONESE/binaries/H" + output + ".pptx' download=''>&#x25BC<A/--></td></tr>");
-			}, i*4);
-        		
+			  setTimeout(function(){
+            var r = i+1;
+    				$("#AllSongs tbody tr:eq(" + r + ")"  ).html("<td>" + ("000" + i).slice(-3) +  "</td><td><b>" + hList[i]    +   " </td><td><a href='https://wcac.ca/CANTONESE/binaries/H" + output + ".mp3' >&#9658</A></b></td><td>  <a href='https://wcac.ca/CANTONESE/binaries/H" + output + ".mp3' download=''>&#x25BC<A/></td>");
+			  }, i);
+           
     		}
       	});
      }
+  
 });
  
 
@@ -606,24 +620,28 @@ function urlExists(url) {
 
 </head>
 
-<body>
+<body> 
 
 <div>
 <H1>生命聖詩<H1/>
 </div>
 
-<TABLE id="Main" Border=0>
 
-    <tBody>
-    <tr>
-        <th scope="col">编号</th>
-        <th scope="col">聖詩</th>
-        <th scope="col">演奏</th>
-        <th scope="col">下载</th>
-	<th scope="col">PPT</th>
-   </tr>
-   </TBody>
+<TABLE id="AllSongs" Border=0>
+
+  <tBody>
+  <tr>
+      <th scope="col">编号</th>
+      <th scope="col">聖詩</th>
+      <th scope="col">演奏</th>
+      <th scope="col">下载</th>
+      
+ </tr>
+ </TBody>
 </TABLE>
+ 
+
+
 </body>
 
 
