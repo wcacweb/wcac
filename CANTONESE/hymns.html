@@ -552,7 +552,7 @@ const hList = [
 $( document ).ready(function() {
 
       console.log("Test");
-      for(let i=0; i<537; i++){
+      for(let i=1; i<537; i++){
         let output = ("000" + i).slice(-3);
         $("#AllSongs").append("<tr><td>" + ("000" + i).slice(-3) +  "</td><td>" + hList[i]    +   "</td><td>----</td><td>----</td></tr>");
          
@@ -562,7 +562,7 @@ $( document ).ready(function() {
       };
 
 
-      for(let i=0; i<537; i++){
+      for(let i=1; i<537; i++){
         let output = ("000" + i).slice(-3);
       	$.ajax({
     		    url:'https://wcac.ca/CANTONESE/binaries/H' + ("000" + i).slice(-3) + '.mp3',
