@@ -564,6 +564,16 @@ $( document ).ready(function() {
     		  type:'HEAD',
     		  error: function()
     		  {
+			  $.ajax({
+				  url:'https://wcac.ca/CANTONESE/binaries/H' + ("000" + i).slice(-3) + '.pptx',
+				   type:'HEAD',
+    		  		   error: function() {  }
+				   success: function() {
+						$("#AllSongs tbody tr:eq(" + i + ")"  ).html("<td>" + ("000" + i).slice(-3) +  "</td><td><b>" + hList[i]    +   " </td><td>---</td><td></td><td>  <a href='https://wcac.ca/CANTONESE/binaries/H" + output + ".pptx' download=''>&#x25BC<A/></td>");
+			           }
+
+			  });
+    	
         		  //file not exists
     		  },
     		  success: function()
@@ -630,7 +640,7 @@ function urlExists(url) {
       <th scope="col">聖詩</th>
       <th scope="col">演奏</th>
       <th scope="col">下载</th>
-      
+      <th scope="col">歌词</th>
  </tr>
  </TBody>
 </TABLE>
@@ -642,4 +652,5 @@ function urlExists(url) {
 
 
 </html>
+
 
