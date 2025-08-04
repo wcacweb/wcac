@@ -550,15 +550,10 @@ const hList = [
  
 
 $( document ).ready(function() {
-
       console.log("Test");
       for(let i=1; i<537; i++){
         let output = ("000" + i).slice(-3);
         $("#AllSongs").append("<tr><td>" + ("000" + i).slice(-3) +  "</td><td>" + hList[i]    +   "</td><td>----</td><td>----</td></tr>");
-         
-
- 
-    
       };
 
 
@@ -574,7 +569,7 @@ $( document ).ready(function() {
     		  success: function()
     		{
 			  setTimeout(function(){
-            var r = i+1;
+           		         var r = i;
     				$("#AllSongs tbody tr:eq(" + r + ")"  ).html("<td>" + ("000" + i).slice(-3) +  "</td><td><b>" + hList[i]    +   " </td><td><a href='https://wcac.ca/CANTONESE/binaries/H" + output + ".mp3' >&#9658</A></b></td><td>  <a href='https://wcac.ca/CANTONESE/binaries/H" + output + ".mp3' download=''>&#x25BC<A/></td>");
 			  }, i);
            
@@ -647,3 +642,4 @@ function urlExists(url) {
 
 
 </html>
+
