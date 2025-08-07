@@ -569,7 +569,7 @@ $( document ).ready(function() {
 				   type:'HEAD',
     		  		   error: function() {  },
 				   success: function() {
-						$("#AllSongs tbody tr:eq(" + i + ")"  ).html("<td>" + ("000" + i).slice(-3) +  "</td><td><b>" + hList[i]    +   " </td><td>---</td><td></td><td>  <a href='https://wcac.ca/CANTONESE/binaries/H" + output + ".pptx' download=''>&#x25BC<A/></td>");
+						$("#AllSongs tbody tr:eq(" + i + ")"  ).html("<td>" + ("000" + i).slice(-3) +  "</td><td>" + hList[i]    +   " </td><td>---</td><td></td><td>  <a href='https://wcac.ca/CANTONESE/binaries/H" + output + ".pptx' download=''>&#x25BC<A/></td>");
 			           }
 
 			  });
@@ -580,7 +580,7 @@ $( document ).ready(function() {
     		{
 			  setTimeout(function(){
            		         var r = i;
-    				$("#AllSongs tbody tr:eq(" + r + ")"  ).html("<td>" + ("000" + i).slice(-3) +  "</td><td><b>" + hList[i]    +   " </td><td><a href='https://wcac.ca/CANTONESE/binaries/H" + output + ".mp3' >&#9658</A></b></td><td>  <a href='https://wcac.ca/CANTONESE/binaries/H" + output + ".mp3' download=''>&#x25BC<A/></td>");
+    				$("#AllSongs tbody tr:eq(" + r + ")"  ).html("<td>" + ("000" + i).slice(-3) +  "</td><td><b>" + hList[i]    +   " </td><td><a href='https://wcac.ca/CANTONESE/binaries/H" + output + ".mp3' >&#9658</A></b></td><td>  <a href='https://wcac.ca/CANTONESE/binaries/H" + output + ".mp3' download=''>&#x25BC<A/></td><td>  <a href='https://wcac.ca/CANTONESE/binaries/H" + output + ".pptx' download=''>&#x25BC<A/></td>");
 			  }, i);
            
     		}
@@ -652,6 +652,7 @@ function urlExists(url) {
 
 
 </html>
+
 
 
 
